@@ -1,0 +1,28 @@
+<button class="shadow-button">
+    Shadow
+</button>
+<style>
+    .shadow-button{
+        background-color: rgba(0, 0, 255, 0.929);
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border: none;
+        cursor: pointer;
+        margin-right: 10px;
+        border-radius: 2px;
+    }
+    .shadow-button:hover{
+        box-shadow: 3px 3px 3px rgba(3, 3, 3, 0.6);
+        transition: box-shadow 0.17s;
+
+    }
+    .shadow-button:active{
+        margin-top: 3px;
+        margin-left: 3px;
+        background-color: rgb(0, 84, 252);
+        box-shadow: none;
+    }
+</style>
