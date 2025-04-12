@@ -1,0 +1,70 @@
+.SUB-BUTTON {
+  background-color: rgb(189, 4, 4);
+  color: white;
+  height: 40px;
+  width: 108px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 20px;
+  transition: background-color 0.14s;
+  /*we can add "paddding" to keep text middle*/
+  /*we can add "vertical-align: top" to keep buttons sorted*/
+}
+.SUB-BUTTON:hover{
+  background-color: rgb(253, 55, 55);
+  /*or
+  opacity: 0.8;
+  */
+}
+.SUB-BUTTON:active{
+  opacity: 0.7;
+}
+.JOIN-BUTTON{
+  background-color: white;
+  height: 43px;
+  width: 80px;
+  color: rgb(0, 145, 255);
+  border-color:  rgb(0, 145, 255);
+  border-style: solid;
+  border-width: 1.6px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.2s,
+  colour 0.2s ;
+  margin-right: 20px;
+}
+.JOIN-BUTTON:hover{
+  background-color: rgb(11, 124, 210);
+  color: white;
+  border-color: rgb(11, 124, 210);
+}
+.JOIN-BUTTON:active{
+  background-color: rgb(90, 180, 249);
+  color: white;
+  border: none;
+}
+.TWEET-BUTTON{
+  background-color: rgb(28, 181, 252);
+  color: white;
+  height: 32px;
+  width: 82px;
+  border: none;
+  border-radius: 16px;
+  margin-left: 20;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: box-shadow 0.25s;
+}
+.TWEET-BUTTON:hover{
+  /*shadow*/
+  box-shadow: 2px 4px 10px rgba(6, 6, 6, 0.5);
+  transition: 0.4s;
+}
+.TWEET-BUTTON:active{
+  box-shadow: none;
+  background-color: rgb(101, 206, 254);
+  color: white;
+  transition: 0s;
+}
